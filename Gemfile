@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+# Section 1.2.4 Listing 1.5 - freeze gem versions
 gem 'rails', '3.2.8'
 
 # Bundle edge Rails instead:
@@ -37,3 +38,9 @@ gem 'jquery-rails', '2.0.2'
 
 # To use debugger
 # gem 'debugger'
+
+
+# Section 1.4.1 Listing 1.9 add PostgreSQL gem
+group :production do
+  gem 'pg', '0.12.2'
+end
